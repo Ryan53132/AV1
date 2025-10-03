@@ -1,0 +1,19 @@
+import { TipoAeronave } from "./TiposVariaveis"
+export default class Aeronave {
+    codigo:string
+    modelo:string
+    tipo:TipoAeronave
+    capacidade:number
+    alcance:number
+    constructor(codigo:string,modelo:string,tipo:TipoAeronave,capacidade:number,alcance:number) {
+        this.codigo = codigo
+        this.modelo = modelo
+        this.tipo = tipo
+        this.capacidade = capacidade
+        this.alcance = alcance
+    }
+
+    detalhe(){}
+    salvar(){}
+    carregar(){}    
+}
