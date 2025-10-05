@@ -21,7 +21,8 @@ if(Jfunc[usuario]["senha"] != senha){
 }else{
 while(true){
     console.log(`1 - Escolha a Aeronave 2 - Crie Aeronave 3 - Listar Aeronaves 4 - sair
-        Cetifique-se de Criar uma aeronave antes de escolher ou listar, o mesmo processo se aplica com etapas, peças e testes, Obrigado pela paciencia.`)
+    Cetifique-se de Criar uma aeronave antes de escolher ou listar, o mesmo processo se aplica com etapas, peças e testes,
+    Este é um sistema e somente operavel com Numeros, Obrigado pela paciencia.`)
     let res = ReadLine()
     let Aero:Aeronave = new Aeronave("","",TipoAeronave.Comercial,0,0)
     let pass = 0    

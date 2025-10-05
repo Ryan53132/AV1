@@ -26,7 +26,7 @@ else {
     }
     else {
         while (true) {
-            console.log("1 - Escolha a Aeronave 2 - Crie Aeronave 3 - Listar Aeronaves 4 - sair\n        Cetifique-se de Criar uma aeronave antes de escolher ou listar, o mesmo processo se aplica com etapas, pe\u00E7as e testes, Obrigado pela paciencia.");
+            console.log("1 - Escolha a Aeronave 2 - Crie Aeronave 3 - Listar Aeronaves 4 - sair\n    Cetifique-se de Criar uma aeronave antes de escolher ou listar, o mesmo processo se aplica com etapas, pe\u00E7as e testes,\n    Este \u00E9 um sistema e somente operavel com Numeros, Obrigado pela paciencia.");
             var res = (0, FileWriter_1.ReadLine)();
             var Aero = new aeronave_1.default("", "", TiposVariaveis_1.TipoAeronave.Comercial, 0, 0);
             var pass = 0;
