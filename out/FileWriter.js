@@ -32,10 +32,20 @@ var __importStar = (this && this.__importStar) || (function () {
         return result;
     };
 })();
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ReadLine = ReadLine;
 exports.Write = Write;
 exports.Read = Read;
 var fs = __importStar(require("fs"));
+var prompt_sync_1 = __importDefault(require("prompt-sync"));
+function ReadLine() {
+    var prompt = (0, prompt_sync_1.default)();
+    var res = prompt("Usuario:");
+    return res;
+}
 function Write(path, content) {
     try {
         fs.writeFileSync(path, content);

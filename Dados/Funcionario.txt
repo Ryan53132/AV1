@@ -1,0 +1,1 @@
+{"0":{"id":"0","nome": "admin","telefone": "00000000","endereco":"rua","usuario": "admin","senha": "0000","nivel": 2}, "1":{"id":"1","nome":"Ryan","telefone": "12988785437","endereco": "Rua 1","usuario": "aaa", "senha": "123", "nivel": "0"}

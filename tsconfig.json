@@ -1,0 +1,16 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "ES5",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames":  true,
+    "outDir": "out/",
+    "rootDir": "scr/",
+    "noImplicitAny": false
+
+
+  },"include": ["scr/**/*"]
+}

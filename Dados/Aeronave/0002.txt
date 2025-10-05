@@ -1,0 +1,1 @@
+{"codigo":"0002","modelo":"b16","tipo":1,"capacidade":1,"alcance":300000,"teste":[],"etapa":[],"peca":[]}

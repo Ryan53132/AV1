@@ -1,0 +1,19 @@
+==============================
+        RELATÓRIO DE PRODUÇÃO
+        ==============================    
+        AERONAVE:
+        Código: 0001
+        Modelo: b15
+        Tipo: 1
+        Capacidade: 1
+        Alcance: 200000
+        
+        --- Peças ---
+        [{"tipoTeste":"Aerodinâmico","resultado":"Aprovado"},{"tipoTeste":"Aerodinâmico","resultado":"Aprovado"}]
+        
+        --- Etapas ---
+        [{"nome":"Asa","prazo":"5 Semanas","status":"Pendente","funcionarios":[{"id":"0","nome":"admin","telefone":"00000000","endereco":"rua","usuario":"admin","senha":"0000","nivelPermicao":2},{"id":"1","nome":"Ryan","telefone":"12988785437","endereco":"Rua 1","usuario":"aaa","senha":"123","nivelPermicao":"0"}]}]
+        
+        --- Testes ---
+        [{"nome":"Bico Ejetor de Metano","tipo":"Importada","fornecedor":"Nasa","status":"Em Transporte"}]
+        
